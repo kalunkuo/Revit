@@ -1,6 +1,22 @@
 __author__ = "karen.kuo"
 __version__ = "2024.03.04"
 
+"""
+Program: Rhino.Inside + Revit
+
+Description:
+The script detects duplicate lines on a chosen level in Revit and removes them. 
+It then outputs a list of non-duplicate lines in Revit.
+
+Input:
+1. IN_level: The level to check for duplicate lines.
+2. IN_boo: Boolean indicating whether to perform the check.
+Output: list of total areas for each combination
+
+Output:
+List of non-duplicate lines in Revit.
+"""
+
 # Importing necessary modules
 import rhinoscriptsyntax as rs
 import clr
