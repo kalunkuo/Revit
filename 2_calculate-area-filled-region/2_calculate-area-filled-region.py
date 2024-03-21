@@ -14,7 +14,6 @@ Input:
 3. data_name: Contains corresponding names.
 
 Output: list of total areas for each combination
-
 """
 
 # Load the Python Standard and DesignScript Libraries
